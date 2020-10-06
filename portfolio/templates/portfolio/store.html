@@ -1,0 +1,54 @@
+{% extends "portfolio/base.html" %}
+{% block content %}
+
+<h1>Bulid your portfolio?</h1>
+
+<p>Did you know that having a portfolio increases your chance of getting hired by 73%? 
+    Just kidding!You need to be good for that job (Like Creed in Dunder Mifflin!).Anyway having a personal portfolio website for anyone to access through
+    the internet is cool.</p>
+    
+    <p>Build your Portfolio- <b>4.99$ </b></p>
+    <a href="{% url 'sample' %}">Sample Portfolio</a>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="9YEELG8BBXVPE">
+        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        
+
+
+<hr>
+<h1>Build your custom site?</h1>
+<p>Want to build your own static website and access it from the internet? You can mail me or DM me on instagram.
+    I know I can build it for you but it would be great if we discuss your imagination and requirements 
+    and then go live on the internet.
+
+    <p>Build your Custom Static Website- <b>9.99$ </b></p>
+</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="JT4K7AA5GPR4L">
+    <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    
+
+<hr>
+<h1>Donate me?</h1>
+<p>I build job portfolios for those who don't have a job.Am I a hero?I really can't say, but yes!</p>
+<div class='pm-button'><a href='https://www.payumoney.com/paybypayumoney/#/08FDFFA6D7A109CADFB35AE674ED843C'><img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/21.png' /></a></div> 
+<hr>
+<h5><b>In case the payment transaction fails, try the below links or you can <a href='https://www.instagram.com/crappy_codes/' target="_blank">DM me</a> or <a href='mailto: dunderhenlin@gmail.com'>mail me</a>.</b><br>
+    
+    
+   <br>
+  </h5>
+<p>Build a portfolio?</p>
+<div class='pm-button'><a href='https://www.payumoney.com/paybypayumoney/#/E1388BFE26BF0F9A2628DD89CC0309DF'><img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/21.png' /></a></div> 
+<p>Build a website?</p>
+<div class='pm-button'><a href='https://www.payumoney.com/paybypayumoney/#/6547879060186E91EBC6C4AF3715F6EE'><img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/21.png' /></a></div> 
+<br>
+<p><a href="{% url 'about' %}">More Information about Dunder Henlin</a></p>
+{% endblock %}
